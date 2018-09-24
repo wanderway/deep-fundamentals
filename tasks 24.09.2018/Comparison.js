@@ -1,11 +1,11 @@
 function mathComparison(a, b) {
 
     if (a > b) {
-        return ('>');
+        return '>';
     } else if (a === b) {
-        return ('=');
+        return '=';
     } else {
-        return ('<');
+        return '<';
     }
 }
 

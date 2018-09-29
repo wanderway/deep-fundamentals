@@ -2,11 +2,11 @@ function chain(str) {
 
     var final = 0;
     var actual = 0;
-    var arr = str.split('');
 
+    str.split('');
 
-    for (var i = 0; i < arr.length; i++) {
-        if (arr[i] === '0') {
+    for (var i = 0; i < str.length; i++) {
+        if (str[i] === '0') {
             actual = actual + 1;
 
             if (actual > final) {

@@ -3,7 +3,7 @@ function chain(str) {
     var final = 0;
     var actual = 0;
 
-    str.split('');
+    // str.split('');
 
     for (var i = 0; i < str.length; i++) {
         if (str[i] === '0') {

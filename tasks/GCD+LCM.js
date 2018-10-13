@@ -10,11 +10,11 @@ var mathGCD = function (a, b) {
     }
 };
 
-mathGCD(594, 7920);
+console.log(mathGCD(594, 7920)); // 198
 
 function mathLCM(a, b) {
     mathLCM = (a * b / mathGCD(a, b));
     return mathLCM;
 }
 
-mathLCM(54, 72);
+console.log(mathLCM(54, 72)); // 216

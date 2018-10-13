@@ -29,7 +29,7 @@
 // console.log(SeriesSum(5));
 
 
-function sequence(n) {
+function SeriesSum(n) {
     let divider = 1;
     let result = 0;
     for (let i = 0; i < n; i++) {
@@ -39,4 +39,4 @@ function sequence(n) {
     return `'${result.toFixed(2)}'`;
 }
 
-console.log(sequence(3));
+console.log(SeriesSum(3));

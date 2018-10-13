@@ -1,4 +1,4 @@
-// function reverseString(str) {
+ // function reverseString(str) {
 //     if (str === "")
 //         return "";
 //     else
@@ -9,10 +9,10 @@
 // console.log(reverseString("hello"));
 
 function reverseString(str) {
-    var newString = '';
+    let newString = '';
 
-    for (var i = str.length - 1; i >= 0; i--) {
-        newString = newString + str[i];
+    for (let i = str.length - 1; i >= 0; i--) {
+        newString +=  str[i];
     }
 
     return newString;

@@ -1,5 +1,5 @@
 function repeatStr(n, s) {
-        return s.repeat(n);
+    return (Array(n + 1).join(s));
 }
 
-console.log(repeatStr(10, 'hi '));
+console.log(repeatStr(10, 'hi ')); //hi hi hi hi hi hi hi hi hi hi
